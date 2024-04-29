@@ -43,3 +43,11 @@ python -m pip freeze > requirements.txt
 # У редакторі коду створіть файли
 
 Dockerfile
+
+# Збірка Docker-образу
+
+docker build . -t sergiiminko/goit-ds-hw-01
+
+# Запуск контейнера в інтерактивному режимі
+
+docker run -it sergiiminko/goit-ds-hw-01-2
